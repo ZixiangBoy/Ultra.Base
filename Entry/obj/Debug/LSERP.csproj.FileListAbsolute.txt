@@ -1,0 +1,6 @@
+G:\LSMYERP\ERP\obj\Debug\LSERP.csprojResolveAssemblyReference.cache
+G:\LSMYERP\Bin\LSERP.exe.config
+G:\LSMYERP\Bin\LSERP.exe
+G:\LSMYERP\Bin\LSERP.pdb
+G:\LSMYERP\ERP\obj\Debug\LSERP.exe
+G:\LSMYERP\ERP\obj\Debug\LSERP.pdb

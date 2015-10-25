@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CB518407-658A-43DD-887C-882EAE1F7B23}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ultra.Surface</RootNamespace>
+    <AssemblyName>Ultra.Surface</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\Bin\Ultra.Surface.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Common.cs" />
+    <Compile Include="Common\MenuEntity.cs" />
+    <Compile Include="Common\MsgBox.cs" />
+    <Compile Include="Common\Util.cs" />
+    <Compile Include="Controls\CollapsibleSplitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DateEditEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DateEditEx.Designer.cs">
+      <DependentUpon>DateEditEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EntityGridEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\GridControlEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MyBarMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MyBarMenu.designer.cs">
+      <DependentUpon>MyBarMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PageChangedEventArg.cs" />
+    <Compile Include="Controls\PagerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PagerControl.Designer.cs">
+      <DependentUpon>PagerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SplitContorl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Enums\Enum.cs" />
+    <Compile Include="Extend\MethodExtend.cs" />
+    <Compile Include="Form\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BaseSurface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BaseSurface.Designer.cs">
+      <DependentUpon>BaseSurface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\DialogView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\DialogView.Designer.cs">
+      <DependentUpon>DialogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\DialogViewEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\DialogViewEx.Designer.cs">
+      <DependentUpon>DialogViewEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\MainStdView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\MainStdView.Designer.cs">
+      <DependentUpon>MainStdView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\MainSurface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\MainSurface.Designer.cs">
+      <DependentUpon>MainSurface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\WaitDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\WaitDialog.Designer.cs">
+      <DependentUpon>WaitDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\ISurfacePermission.cs" />
+    <Compile Include="Lanuch\Lanucher.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SuperForm\Constant.cs" />
+    <Compile Include="SuperForm\FrameWorkBaseSuperView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperForm\FrameWorkBaseSuperView.Designer.cs">
+      <DependentUpon>FrameWorkBaseSuperView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperForm\GDI32Dll.cs" />
+    <Compile Include="SuperForm\Kernal32Dll.cs" />
+    <Compile Include="SuperForm\User32Dll.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\GridControlEx.resx">
+      <DependentUpon>GridControlEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MyBarMenu.resx">
+      <DependentUpon>MyBarMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PagerControl.resx">
+      <DependentUpon>PagerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BaseSurface.resx">
+      <DependentUpon>BaseSurface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\DialogView.resx">
+      <DependentUpon>DialogView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\DialogViewEx.resx">
+      <DependentUpon>DialogViewEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\MainStdView.resx">
+      <DependentUpon>MainStdView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\MainSurface.resx">
+      <DependentUpon>MainSurface.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MainSurface1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\WaitDialog.resx">
+      <DependentUpon>WaitDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperForm\FrameWorkBaseSuperView.resx">
+      <DependentUpon>FrameWorkBaseSuperView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Customer\ActiveCustomersList_16x16.png" />
+    <Content Include="Images\Customer\ActiveCustomersList_32x32.png" />
+    <Content Include="Images\Customer\Customer.png" />
+    <Content Include="Images\Customer\CustomerInfoCards_16x16.png" />
+    <Content Include="Images\Customer\CustomerInfoCards_32x32.png" />
+    <Content Include="Images\Customer\CustomerRevenue_16x16.png" />
+    <Content Include="Images\Customer\CustomerRevenue_32x32.png" />
+    <Content Include="Images\Customer\CustomersByDate_16x16.png" />
+    <Content Include="Images\Customer\CustomersByDate_32x32.png" />
+    <Content Include="Images\Customer\CustomersKPI_16x16.png" />
+    <Content Include="Images\Customer\CustomersKPI_32x32.png" />
+    <Content Include="Images\Customer\TopCustomers_16x16.png" />
+    <Content Include="Images\Customer\TopCustomers_32x32.png" />
+    <Content Include="Images\Edit\Edit_16x16.png" />
+    <Content Include="Images\Edit\Edit_32x32.png" />
+    <Content Include="Images\33x33.ico" />
+    <Content Include="Images\Export\ExportCsvLarge.png" />
+    <Content Include="Images\Export\ExportGraphicLarge.png" />
+    <Content Include="Images\Export\ExportHtmLarge.png" />
+    <Content Include="Images\Export\ExportMhtLarge.png" />
+    <Content Include="Images\Export\ExportPdfLarge.png" />
+    <Content Include="Images\Export\ExportRtfLarge.png" />
+    <Content Include="Images\Export\ExportToExcel_16x16.png" />
+    <Content Include="Images\Export\ExportToHTML_16x16.png" />
+    <Content Include="Images\Export\ExportToIMG_16x16.png" />
+    <Content Include="Images\Export\ExportToMHT_16x16.png" />
+    <Content Include="Images\Export\ExportToPDF_16x16.png" />
+    <Content Include="Images\Export\ExportToRTF_16x16.png" />
+    <Content Include="Images\Export\ExportToTXT_16x16.png" />
+    <Content Include="Images\Export\ExportToXML_16x16.png" />
+    <Content Include="Images\Export\ExportTxtLarge.png" />
+    <Content Include="Images\Export\ExportXlsLarge.png" />
+    <Content Include="Images\Export\ExportXlsxLarge.png" />
+    <Content Include="Images\Export\Export_16x16.png" />
+    <Content Include="Images\Export\Export_32x32.png" />
+    <Content Include="Images\Export\GroupsAndItems.Icon.png" />
+    <Content Include="Images\Key\Key.png" />
+    <Content Include="Images\Key\keys-16x16.png" />
+    <Content Include="Images\Key\keys-32x32.png" />
+    <Content Include="Images\New\New_16x16.png" />
+    <Content Include="Images\New\New_32x32.png" />
+    <Content Include="Images\Person\Employee_16x16.png" />
+    <Content Include="Images\Person\Employee_32x32.png" />
+    <Content Include="Images\Person\image1.png" />
+    <Content Include="Images\Person\image2.png" />
+    <Content Include="Images\Person\image3.png" />
+    <Content Include="Images\Person\Person.png" />
+    <Content Include="Images\Person\Persons.png" />
+    <Content Include="Images\Person\Person_16x16.png" />
+    <Content Include="Images\Person\Person_32x32.png" />
+    <Content Include="Images\Person\Person_Female.png" />
+    <Content Include="Images\Person\Person_Male.png" />
+    <Content Include="Images\Person\Unknown-user-small.png" />
+    <Content Include="Images\Person\Unknown-user.png" />
+    <Content Include="Images\Refresh\Refresh_16x16.png" />
+    <Content Include="Images\Refresh\Refresh_32x32.png" />
+    <Content Include="Images\Remove\Delete_16x16.png" />
+    <Content Include="Images\Remove\Delete_32x32.png" />
+    <Content Include="Images\Remove\Remove_16x16.png" />
+    <Content Include="Images\Remove\Remove_32x32.png" />
+    <Content Include="Images\Task\add_to_cart.png" />
+    <Content Include="Images\Task\agt_action_success.png" />
+    <None Include="Images\Task\busy.png" />
+    <Content Include="Images\Task\folder_deny.png" />
+    <Content Include="Images\Task\image2.png" />
+    <Content Include="Images\Task\image3.png" />
+    <Content Include="Images\Task\interact.png" />
+    <Content Include="Images\Task\list_accept.png" />
+    <Content Include="Images\Task\lock.png" />
+    <Content Include="Images\Task\mail_get %281%29.png" />
+    <Content Include="Images\Task\mail_get.png" />
+    <Content Include="Images\Task\make.png" />
+    <Content Include="Images\Task\media_playlist_clear.png" />
+    <Content Include="Images\Task\old_edit_redo.png" />
+    <Content Include="Images\Task\old_edit_undo.png" />
+    <Content Include="Images\Task\PrintTemplates.Icon %28174%29.png" />
+    <Content Include="Images\Task\refuse.png" />
+    <None Include="Images\Task\reload.png" />
+    <Content Include="Images\Task\ReView.png" />
+    <Content Include="Images\Task\Scheduller.png" />
+    <Content Include="Images\Task\system_upgrade.png" />
+    <Content Include="Images\Task\Task.png" />
+    <Content Include="Images\Task\Tasks_17.png" />
+    <Content Include="Images\Task\Tasks_25.png" />
+    <Content Include="Images\Task\tick.png" />
+    <Content Include="Images\Task\unlock_yellow.png" />
+    <Content Include="Images\Task\user_student_assistant.png" />
+    <Content Include="Images\User\BO_Organizations_Large.png" />
+    <Content Include="Images\User\BO_Persons_Large.png" />
+    <Content Include="Images\User\BO_Users.png" />
+    <Content Include="Images\User\BO_Users_Large.png" />
+    <Content Include="Images\User\User Folder.png" />
+    <Content Include="Images\User\User.png" />
+    <Content Include="Images\User\UserKey.png" />
+    <Content Include="Images\User\UserKey_16x16.png" />
+    <Content Include="Images\User\UserKey_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DbEntity\DbEntity.csproj">
+      <Project>{0113c4b0-c116-4cba-a617-f7ee5be9c4fb}</Project>
+      <Name>DbEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ultra.Web.Core\Ultra.Web.Core.csproj">
+      <Project>{aa07f32a-5fc8-4975-8a7f-1b23502d07ae}</Project>
+      <Name>Ultra.Web.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

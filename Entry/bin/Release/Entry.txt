@@ -1,0 +1,54 @@
+2013-06-01 08:33:20
+stacktrace:
+Lanucher.GetPathByClsName => Program.CurrentDomain_UnhandledException => ApplicationLog.DebugException
+exception:
+System.ArgumentException: 无法找到 Ultra.Login.LoginView 对应的模块文件!
+参数名: clsName
+   在 Ultra.Surface.Lanuch.Lanucher.GetPathByClsName(String clsName) 位置 h:\WinForm\Ultra.Surface\Lanuch\Lanucher.cs:行号 198
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName) 位置 h:\WinForm\Ultra.Surface\Lanuch\Lanucher.cs:行号 109
+   在 Entry.Program.Main(String[] args) 位置 h:\WinForm\Entry\Program.cs:行号 40
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+message:
+System.ArgumentException: 无法找到 Ultra.Login.LoginView 对应的模块文件!
+参数名: clsName
+   在 Ultra.Surface.Lanuch.Lanucher.GetPathByClsName(String clsName) 位置 h:\WinForm\Ultra.Surface\Lanuch\Lanucher.cs:行号 198
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName) 位置 h:\WinForm\Ultra.Surface\Lanuch\Lanucher.cs:行号 109
+   在 Entry.Program.Main(String[] args) 位置 h:\WinForm\Entry\Program.cs:行号 40
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2014-06-01 15:44:51
+stacktrace:
+Lanucher.GetPathByClsName => Program.CurrentDomain_UnhandledException => ApplicationLog.DebugException
+exception:
+System.ArgumentException: 无法找到 Ultra.Login.LoginView 对应的模块文件!
+参数名: clsName
+   在 Ultra.Surface.Lanuch.Lanucher.GetPathByClsName(String clsName) 位置 h:\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 198
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName) 位置 h:\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 109
+   在 Entry.Program.Main(String[] args) 位置 h:\winform\Entry\Program.cs:行号 41
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+message:
+System.ArgumentException: 无法找到 Ultra.Login.LoginView 对应的模块文件!
+参数名: clsName
+   在 Ultra.Surface.Lanuch.Lanucher.GetPathByClsName(String clsName) 位置 h:\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 198
+   在 Ultra.Surface.Lanuch.Lanucher.Start(String clsName, String modName) 位置 h:\winform\Ultra.Surface\Lanuch\Lanucher.cs:行号 109
+   在 Entry.Program.Main(String[] args) 位置 h:\winform\Entry\Program.cs:行号 41
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

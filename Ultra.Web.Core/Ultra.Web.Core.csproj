@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA07F32A-5FC8-4975-8A7F-1B23502D07AE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ultra.Web.Core</RootNamespace>
+    <AssemblyName>Ultra.Web.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ChnCharInfo">
+      <HintPath>..\lib\ChnCharInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cache\CacheBase.cs" />
+    <Compile Include="Class\MockSession.cs" />
+    <Compile Include="Class\SendMail.cs" />
+    <Compile Include="Class\UltraCookie.cs" />
+    <Compile Include="Common\ByteStringUtil.cs" />
+    <Compile Include="Common\ChineseDate.cs" />
+    <Compile Include="Common\DESEncrypt.cs" />
+    <Compile Include="Common\GlobalMemory.cs" />
+    <Compile Include="Common\HashDigest.cs" />
+    <Compile Include="Common\ManualResetEventEx.cs" />
+    <Compile Include="Common\MethodExtend.cs" />
+    <Compile Include="Common\MySqlHelper.cs" />
+    <Compile Include="Common\ObjectDataMaper.cs" />
+    <Compile Include="Common\ObjectHelper.cs" />
+    <Compile Include="Common\RSAEncrypt.cs" />
+    <Compile Include="Common\SoftReg.cs" />
+    <Compile Include="Common\SqlAsyncExecuter.cs" />
+    <Compile Include="Common\SqlHelper.cs" />
+    <Compile Include="Common\SystemInvoke.cs" />
+    <Compile Include="Common\TimeSync.cs" />
+    <Compile Include="Common\UltraDynamic.cs" />
+    <Compile Include="Common\UltraMailSender.cs" />
+    <Compile Include="Configuration\OptionConfig.cs" />
+    <Compile Include="Enums\EnProductType.cs" />
+    <Compile Include="Enums\EnViewEditMode.cs" />
+    <Compile Include="Interface\IBaseEntity.cs" />
+    <Compile Include="Interface\IBaseSurface.cs" />
+    <Compile Include="Interface\IBusinessSurface.cs" />
+    <Compile Include="Cache\ICache.cs" />
+    <Compile Include="Interface\IMockSession.cs" />
+    <Compile Include="Interface\IOptionConfig.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+H:\WinForm\Ultra.Web.Core\bin\Release\Ultra.Web.Core.dll
+H:\WinForm\Ultra.Web.Core\bin\Release\Ultra.Web.Core.pdb
+H:\WinForm\Ultra.Web.Core\bin\Release\ChnCharInfo.dll
+H:\WinForm\Ultra.Web.Core\bin\Release\MySql.Data.dll
+H:\WinForm\Ultra.Web.Core\bin\Release\Newtonsoft.Json.dll
+H:\WinForm\Ultra.Web.Core\bin\Release\zh-CN\ChnCharInfo.resources.dll
+H:\WinForm\Ultra.Web.Core\obj\Release\Ultra.Web.Core.dll
+H:\WinForm\Ultra.Web.Core\obj\Release\Ultra.Web.Core.pdb

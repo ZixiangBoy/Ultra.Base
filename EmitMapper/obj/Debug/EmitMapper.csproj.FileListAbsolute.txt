@@ -1,0 +1,10 @@
+C:\GitSrc\XingYuERP\EmitMapper\obj\Debug\EmitMapper.csprojResolveAssemblyReference.cache
+C:\GitSrc\XingYuERP\Bin\EmitMapper.dll
+C:\GitSrc\XingYuERP\Bin\EmitMapper.pdb
+C:\GitSrc\XingYuERP\EmitMapper\obj\Debug\EmitMapper.dll
+C:\GitSrc\XingYuERP\EmitMapper\obj\Debug\EmitMapper.pdb
+C:\Users\zixiang\Desktop\AutoUpdater\Bin\EmitMapper.dll
+C:\Users\zixiang\Desktop\AutoUpdater\Bin\EmitMapper.pdb
+C:\Users\zixiang\Desktop\AutoUpdater\EmitMapper\obj\Debug\EmitMapper.csprojResolveAssemblyReference.cache
+C:\Users\zixiang\Desktop\AutoUpdater\EmitMapper\obj\Debug\EmitMapper.dll
+C:\Users\zixiang\Desktop\AutoUpdater\EmitMapper\obj\Debug\EmitMapper.pdb

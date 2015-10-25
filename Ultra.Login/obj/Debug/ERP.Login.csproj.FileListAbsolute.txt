@@ -1,0 +1,9 @@
+G:\LSMYERP\Bin\ERP.Login.dll
+G:\LSMYERP\Bin\ERP.Login.pdb
+G:\LSMYERP\ERP.Login\obj\Debug\ERP.Login.csprojResolveAssemblyReference.cache
+G:\LSMYERP\ERP.Login\obj\Debug\ERP.Login.LoginView.resources
+G:\LSMYERP\ERP.Login\obj\Debug\ERP.Login.MainView.resources
+G:\LSMYERP\ERP.Login\obj\Debug\ERP.Login.MenuView.resources
+G:\LSMYERP\ERP.Login\obj\Debug\ERP.Login.csproj.GenerateResource.Cache
+G:\LSMYERP\ERP.Login\obj\Debug\ERP.Login.dll
+G:\LSMYERP\ERP.Login\obj\Debug\ERP.Login.pdb

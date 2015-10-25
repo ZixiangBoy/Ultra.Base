@@ -1,0 +1,12 @@
+F:\Git118\ERP_CommonMod\Bin\MSDN.HtmlEditorControl.dll
+F:\Git118\ERP_CommonMod\ERP\HtmlEditorControl\obj\Release\HTMLEditorControl.csprojResolveAssemblyReference.cache
+F:\Git118\ERP_CommonMod\ERP\HtmlEditorControl\obj\Release\MSDN.Html.Editor.EditHtmlForm.resources
+F:\Git118\ERP_CommonMod\ERP\HtmlEditorControl\obj\Release\MSDN.Html.Editor.EnterHrefForm.resources
+F:\Git118\ERP_CommonMod\ERP\HtmlEditorControl\obj\Release\MSDN.Html.Editor.EnterImageForm.resources
+F:\Git118\ERP_CommonMod\ERP\HtmlEditorControl\obj\Release\MSDN.Html.Editor.FindReplaceForm.resources
+F:\Git118\ERP_CommonMod\ERP\HtmlEditorControl\obj\Release\MSDN.Html.Editor.FontAttributeForm.resources
+F:\Git118\ERP_CommonMod\ERP\HtmlEditorControl\obj\Release\MSDN.Html.Editor.HtmlEditorControl.resources
+F:\Git118\ERP_CommonMod\ERP\HtmlEditorControl\obj\Release\MSDN.Html.Editor.TablePropertyForm.resources
+F:\Git118\ERP_CommonMod\ERP\HtmlEditorControl\obj\Release\MSDN.Html.Editor.Properties.Resources.resources
+F:\Git118\ERP_CommonMod\ERP\HtmlEditorControl\obj\Release\HTMLEditorControl.csproj.GenerateResource.Cache
+F:\Git118\ERP_CommonMod\ERP\HtmlEditorControl\obj\Release\MSDN.HtmlEditorControl.dll

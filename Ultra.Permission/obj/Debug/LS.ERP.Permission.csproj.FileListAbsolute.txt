@@ -1,0 +1,10 @@
+G:\LSMYERP\LS.ERP.Permission\obj\Debug\LS.ERP.Permission.csprojResolveAssemblyReference.cache
+G:\LSMYERP\LS.ERP.Permission\obj\Debug\LS.ERP.Permission.MainView.resources
+G:\LSMYERP\LS.ERP.Permission\obj\Debug\LS.ERP.Permission.NewView.resources
+G:\LSMYERP\LS.ERP.Permission\obj\Debug\LS.ERP.Permission.PermitView.resources
+G:\LSMYERP\LS.ERP.Permission\obj\Debug\LS.ERP.Permission.csproj.GenerateResource.Cache
+G:\LSMYERP\Bin\LS.ERP.Permission.dll
+G:\LSMYERP\Bin\LS.ERP.Permission.pdb
+G:\LSMYERP\LS.ERP.Permission\obj\Debug\LS.ERP.Permission.dll
+G:\LSMYERP\LS.ERP.Permission\obj\Debug\LS.ERP.Permission.pdb
+G:\LSMYERP\LS.ERP.Permission\obj\Debug\LS.ERP.Permission.PermitViewExport.resources

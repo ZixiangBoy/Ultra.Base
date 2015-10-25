@@ -1,0 +1,8 @@
+G:\LSMYERP\Bin\LS.ERP.LoginBind.dll
+G:\LSMYERP\Bin\LS.ERP.LoginBind.pdb
+G:\LSMYERP\LS.ERP.LoginBind\obj\Debug\LS.ERP.LoginBind.csprojResolveAssemblyReference.cache
+G:\LSMYERP\LS.ERP.LoginBind\obj\Debug\LS.ERP.LoginBind.EditView.resources
+G:\LSMYERP\LS.ERP.LoginBind\obj\Debug\LS.ERP.LoginBind.MainView.resources
+G:\LSMYERP\LS.ERP.LoginBind\obj\Debug\LS.ERP.LoginBind.csproj.GenerateResource.Cache
+G:\LSMYERP\LS.ERP.LoginBind\obj\Debug\LS.ERP.LoginBind.dll
+G:\LSMYERP\LS.ERP.LoginBind\obj\Debug\LS.ERP.LoginBind.pdb

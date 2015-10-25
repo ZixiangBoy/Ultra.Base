@@ -1,0 +1,7 @@
+2015-08-23 14:29:49
+stacktrace:
+Program.Main => ApplicationLog.DebugException
+exception:
+PortNumber:30000
+message:
+PortNumber:30000

@@ -1,0 +1,6 @@
+C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Log\bin\Debug\Ultra.Log.dll
+C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Log\bin\Debug\Ultra.Log.pdb
+C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Log\bin\Debug\NLog.dll
+C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Log\bin\Debug\NLog.xml
+C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Log\obj\Debug\Ultra.Log.dll
+C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Log\obj\Debug\Ultra.Log.pdb

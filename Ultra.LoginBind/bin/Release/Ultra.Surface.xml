@@ -1,0 +1,1266 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ultra.Surface</name>
+    </assembly>
+    <members>
+        <member name="M:Ultra.Surface.Common.Common.ConfirmExportOK(System.String,System.Boolean)">
+            <summary>
+            打开文件
+            </summary>
+            <param name="filepath"></param>
+        </member>
+        <member name="M:Ultra.Surface.Common.Common.GridExportXls(DevExpress.XtraGrid.GridControl)">
+            <summary>
+            Grid导出功能
+            </summary>
+            <param name="gc"></param>
+        </member>
+        <member name="M:Ultra.Surface.Common.Common.ToColor(System.String)">
+            <summary>
+            字符串转颜色
+            </summary>
+            <param name="clor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Common.Common.GetColorFromString(System.String)">
+            <summary>
+            字符串转颜色
+            </summary>
+            <param name="colorString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Common.Common.GetMACs(System.String@)">
+            <summary>
+            获取本机网卡地址列表
+            </summary>
+            <param name="mac">输出 网卡地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Common.Common.GetRemoteIP">
+            <summary>
+            获取外网IP
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Common.Common.GetLocalIpv4(System.String@)">
+            <summary>
+            获取本机IPV4 IP
+            </summary>
+            <param name="LocalIP"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ultra.Surface.Common.MenuData">
+            <summary>
+            菜单项实体数据定义
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Common.MenuData.IsUsing">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Common.MenuData.MenuItem">
+            <summary>
+            菜单数据
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Common.MenuItemData.MenuName">
+            <summary>
+            菜单名
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Common.MenuItemData.MenuClsName">
+            <summary>
+            菜单类名
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Common.MenuItemData.MenuAsmName">
+            <summary>
+            菜单程序集名
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Common.MenuItemData.IsUsing">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Common.MenuItemData.CtlData">
+            <summary>
+            控件权限控制
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Common.EnCtlType.ToolBarItems">
+            <summary>
+            工具栏
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Common.EnCtlType.Grids">
+            <summary>
+            网格
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Common.EnCtlType.DialogForms">
+            <summary>
+            弹出窗口
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Common.EnCtlType.ButtonItems">
+            <summary>
+            自定义按钮
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Common.EnCtlType.GridCol">
+            <summary>
+            网格列
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Controls.DateEditEx.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Controls.DateEditEx.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Ultra.Surface.Controls.DateEditEx.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.ReturnDataEventArg`1.InData">
+            <summary>
+            入参
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.ReturnDataEventArg`1.OutData">
+            <summary>
+            出参
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.LabelGridEdit.DisplayMember">
+            <summary>
+            绑定用于显示的字段
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.LabelGridEdit.ColumnItems">
+            <summary>
+            绑定用于显示的字段与列名称列表
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.LabelGridEdit.ColumnItemsEx">
+            <summary>
+            绑定用于显示的字段与列名称列表
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.LabelGridEdit.ValueMember">
+            <summary>
+            绑定用于表示值的字段
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.LabelGridEdit.ColumnCaption">
+            <summary>
+            列显示名称
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.LabelGridEdit.ShowClearButton">
+            <summary>
+            清除所选按钮显示的文字
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.LabelGridEdit.ClearButtonText">
+            <summary>
+            清除所选按钮显示的文字
+            </summary>
+        </member>
+        <member name="E:Ultra.Surface.Controls.LabelGridEdit.OnClearButtonClick">
+            <summary>
+            清除所选按钮按下时触发事件
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Controls.EntityGridEdit`1.GetSelectedValue">
+            <summary>
+            获取选中项
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Controls.EntityGridEdit`1.SetSelectedValue(`0)">
+            <summary>
+            设置选中项
+            </summary>
+            <param name="vl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Controls.EntityGridEdit`1.GetData">
+            <summary>
+            子类实现的获取数据的方法
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Controls.EntityGridEdit`1.LoadData">
+            <summary>
+            加载、绑定数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Controls.EntityGridEdit`1.FilterData(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            自定义过滤
+            </summary>
+            <param name="ds"></param>
+            <returns></returns>
+        </member>
+        <member name="E:Ultra.Surface.Controls.EntityGridEdit`1.OnSelectedValueChanged">
+            <summary>
+            当当前选中的项发生改变时触发事件,事件参数Value包含当前选中的项
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.EntityGridEdit`1.SelectedValue">
+            <summary>
+            获取、设置 选中的项
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Controls.GridControlEx.ReleaseFocusedRow">
+            <summary>
+            不选中任何行
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Controls.GridControlEx.SetRowBackColor(System.Drawing.Color,System.String,System.Object)">
+            <summary>
+            根据列值条件设置行颜色
+            </summary>
+            <param name="color"></param>
+            <param name="fieldName"></param>
+            <param name="matchVlu"></param>
+        </member>
+        <member name="P:Ultra.Surface.Controls.GridControlEx.ShowGroupPanel">
+            <summary>
+            是否显示分组面板
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.GridControlEx.ShowIndicator">
+            <summary>
+            是否显示行指示器
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.GridControlEx.ShowRowNumber">
+            <summary>
+            是否显示号,要显示行号首先要求 ShowIndicator为true
+            </summary>
+        </member>
+        <member name="E:Ultra.Surface.Controls.GridControlEx.RowCellDoubleClick">
+            <summary>
+            双击单元格时触发事件
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Controls.MyBarMenu.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Controls.MyBarMenu.MyBarMenu_Load(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Ultra.Surface.Controls.MyBarMenu.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Controls.MyBarMenu.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Ultra.Surface.Controls.MyBarMenu.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Controls.PagerControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Controls.PagerControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Ultra.Surface.Controls.PagerControl.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.SplitContorl.gb">
+            <summary>
+            标签文本
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Controls.SplitContorl.Panap">
+            <summary>
+            标签文本
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.SysManageAccount">
+            <summary>
+            系统管理员帐号
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.TaoBaoStatus">
+            <summary>
+            订单交易状态
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.PostFeeType">
+            <summary>
+            运费类型数据
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.PostFeeClass">
+            <summary>
+            运费类型实体
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.TaoBaoType">
+            <summary>
+            交易类型
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.RoleType">
+            <summary>
+            权限控件类型
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.ServiceType">
+            <summary>
+            到付类型、三包类型
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ServiceType.ToPay">
+            <summary>
+            到付
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ServiceType.NowPay">
+            <summary>
+            现付
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.ReturnType">
+            <summary>
+            数据库操作返回值类型
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.DownloadFailType">
+            <summary>
+            下载失败类型
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.DownloadFailReason">
+            <summary>
+            下载失败原因
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.TradeType">
+            <summary>
+            订单类型
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.Operation">
+            <summary>
+            页面当前操作状态
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.PurchaseType">
+            <summary>
+            采购单新建或修改类型
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.AdjustStatus">
+            <summary>
+            库存调整单状态,该枚举类型与数据库code表同步更新
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.PurchaseOrderStatus">
+            <summary>
+            采购单状态,该枚举类型与数据库code表同步更新
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.PurchaseDetailStatus">
+            <summary>
+            采购单明细状态,该枚举类型与数据库code表同步更新
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.SqlOperation">
+            <summary>
+            数据库操作类型
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.IsInStock">
+            <summary>
+            入库单入库状态
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.ISOrderStatus">
+            <summary>
+            入库单明细状态,该枚举类型与数据库code表同步更新
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.LendOrderStatus">
+            <summary>
+            借出单状态,该枚举类型与数据库code表同步更新
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.LendDetailStatus">
+            <summary>
+            借出单明细状态,该枚举类型与数据库code表同步更新
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.AlterTradeStatus">
+            <summary>
+            变更单状态,该枚举类型与数据库code表同步更新
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.AlterTradeStatus.Transacting">
+            <summary>
+            待处理
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.AlterTradeStatus.Invalid">
+            <summary>
+            作废
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.AlterDetailType">
+            <summary>
+            变更单明细类型
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.CancelPurchaseStatus">
+            <summary>
+            取消采购单状态,该枚举类型与数据库code表同步更新
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.RefundStatus">
+            <summary>
+            订单退款类型
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.RefundStatus.NotDelivery">
+            <summary>
+            不可发货
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.RefundStatus.NoRefund">
+            <summary>
+            未退款
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.RefundStatus.PartRefund">
+            <summary>
+            部分退款
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.RefundStatus.FullRefund">
+            <summary>
+            全部退款
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.RefundStatus.ErrorRefund">
+            <summary>
+            异常
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.ReturnGoodsReViewType">
+            <summary>
+            退换货审核状态
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnGoodsReViewType.CusFirstReView">
+            <summary>
+            客服一审
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnGoodsReViewType.BuyedFirstReView">
+            <summary>
+            售后一审
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnGoodsReViewType.CusSecondReView">
+            <summary>
+            客服二审
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnGoodsReViewType.BuyedSecondReView">
+            <summary>
+            售后二审
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnGoodsReViewType.WarehouseReView">
+            <summary>
+            仓库审核
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnGoodsReViewType.PurchaseReView">
+            <summary>
+            采购审核
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnGoodsReViewType.IsComplete">
+            <summary>
+            完成
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnGoodsReViewType.AddNew">
+            <summary>
+            新建
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnGoodsReViewType.Modify">
+            <summary>
+            新建
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnGoodsReViewType.View">
+            <summary>
+            查看
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnSearchType.Business">
+            <summary>
+            客服
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnSearchType.Sale">
+            <summary>
+            售后
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnSearchType.Warehouse">
+            <summary>
+            仓库
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnSearchType.Purchase">
+            <summary>
+            采购
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.ReturnSearchType.Center">
+            <summary>
+            退换货中心
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.InStockType">
+            <summary>
+            入库类型
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.InStockType.ItemInStock">
+            <summary>
+            商品入库
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.InStockType.PurchaseInStock">
+            <summary>
+            采购入库
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.DeliveryStatus">
+            <summary>
+            发货状态
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.DeliveryStatus.Fail">
+            <summary>
+            失败
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.DeliveryStatus.Success">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.DeliveryStatus.NotDelivery">
+            <summary>
+            订单状态不能发货
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.DeliveryStatus.NotEnough">
+            <summary>
+            库存不足
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.DeliveryStatus.IsDelivery">
+            <summary>
+            已发过货
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.DeliveryStatus.TradeQtyNotEnough">
+            <summary>
+            订单数不足
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.DeliveryStatus.TradeNotPickPart">
+            <summary>
+            未完成分拣任务
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Enums.AutoPurchase">
+            <summary>
+            Author:Frank
+            采购单生成状态
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.AutoPurchase.Fail">
+            <summary>
+            失败
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.AutoPurchase.Success">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Enums.AutoPurchase.NoItem">
+            <summary>
+            无信息或商品未启用
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Extend.MethodExtend">
+            <summary>
+            控件扩展方法集
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Extend.MethodExtend.ReleaseFocusedRow(DevExpress.XtraGrid.Views.Grid.GridView)">
+            <summary>
+            不选中任何行
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Extend.MethodExtend.GetDataSource``1(DevExpress.XtraGrid.Views.Grid.GridView)">
+            <summary>
+            获取数据源对象实体
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="gdview"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Extend.MethodExtend.GetFocusedDataSource``1(DevExpress.XtraGrid.Views.Grid.GridView)">
+            <summary>
+            获取选中行的数据对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="gdview"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Extend.MethodExtend.GetRowDataSource``1(DevExpress.XtraGrid.Views.Grid.GridView,System.Int32)">
+            <summary>
+            获取指定行的数据对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="gdview"></param>
+            <param name="row"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Extend.MethodExtend.GetFocusedDataSource``1(DevExpress.XtraGrid.GridControl)">
+            <summary>
+            获取选中行的数据对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="gc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Extend.MethodExtend.GetDataSource``1(DevExpress.XtraGrid.GridControl)">
+            <summary>
+            获取数据源对象实体
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="gc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Extend.MethodExtend.RemoveFocusedRow(DevExpress.XtraGrid.Views.Grid.GridView)">
+            <summary>
+            删除数据源的对象实体
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="gc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Extend.MethodExtend.UpdateFocusedRow``1(DevExpress.XtraGrid.Views.Grid.GridView,``0)">
+            <summary>
+            更新数据源的对象实体
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="gc"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ultra.Surface.Form.BaseSurface">
+            <summary>
+            基础画面基类
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Form.BaseSurface.#ctor">
+            <summary>
+            构造器
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Form.BaseSurface.GetCurUser``1">
+            <summary>
+            获取当前登录用户对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="F:Ultra.Surface.Form.BaseSurface.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Form.BaseSurface.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Ultra.Surface.Form.BaseSurface.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.BaseSurface.OptConfig">
+            <summary>
+            配置读取器
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.BaseSurface.ConnString">
+            <summary>
+            连接字符串
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.BaseSurface.SFConnString">
+            <summary>
+            连接字符串
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.BaseSurface.CurUser">
+            <summary>
+            当前登录用户
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.BaseSurface.GuidKey">
+            <summary>
+            Guid 键值
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.BaseSurface.IdKey">
+            <summary>
+            Id 键值
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Form.BaseForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Form.BaseForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Ultra.Surface.Form.BaseForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Form.DialogView">
+            <summary>
+            对话框基类
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Form.DialogView.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Form.DialogView.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Ultra.Surface.Form.DialogView.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Form.DialogViewEx.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Form.DialogViewEx.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Ultra.Surface.Form.DialogViewEx.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Form.MainStdView">
+            <summary>
+            标准浏览画面基类
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Form.MainSurface.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Form.MainSurface.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Ultra.Surface.Form.MainSurface.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Form.MainStdView.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Form.MainStdView.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Ultra.Surface.Form.MainStdView.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Form.WaitDialog._ProgressMode">
+            <summary>
+            画面模式
+            </summary>
+        </member>
+        <member name="F:Ultra.Surface.Form.WaitDialog.IsCanceled">
+            <summary>
+            是否提前终止后台执行
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Form.WaitDialog.RunAsyncWork(System.Object)">
+            <summary>
+            开始异步执行
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="M:Ultra.Surface.Form.WaitDialog.CancelAsync">
+            <summary>
+            取消后台工作,返回true表示同意取消后台工作
+            </summary>
+            <returns>返回true表示同意取消后台工作</returns>
+        </member>
+        <member name="F:Ultra.Surface.Form.WaitDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Form.WaitDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Ultra.Surface.Form.WaitDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.WaitDialog.UserDefineData">
+            <summary>
+            由调用者定义的数据传递对象
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.WaitDialog.CanClose">
+            <summary>
+            指示画面是否允许用户手动关闭
+            </summary>
+        </member>
+        <member name="E:Ultra.Surface.Form.WaitDialog.OnProgressCompleted">
+            <summary>
+            ProgressMode为EnProgressMode.Progress时,CurrentValue>=MaxValue时触发事件
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.WaitDialog.ProgressModeTextFormat">
+            <summary>
+            当启用ProgressMode为EnProgressMode.Progress时有效
+            显示文本的格式化串
+            默认为:当前进度:{0}/{1}
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.WaitDialog.MaxValue">
+            <summary>
+            当启用ProgressMode为EnProgressMode.Progress时有效
+            最大进度值
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.WaitDialog.CurrentValue">
+            <summary>
+            当启用ProgressMode为EnProgressMode.Progress时有效
+            当前进度值
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.WaitDialog.CloseEventArg.CancelWorking">
+            <summary>
+            表明是否取消后台工作,为true则表示取消,否则则继续后台工作
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.WaitDialog.CloseEventArg.ArgumentData">
+            <summary>
+            附加参数对象
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Interfaces.ISurfacePermission">
+            <summary>
+            UI 权限控制接口
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Interfaces.ISurfacePermission.ToolBarItems">
+            <summary>
+            有权限操作的工具栏按钮集合
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Interfaces.ISurfacePermission.ButtonItems">
+            <summary>
+            有权限操作的按钮集合
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Interfaces.ISurfacePermission.MenuItems">
+            <summary>
+            有权限操作的菜单集合
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Interfaces.ISurfacePermission.Grids">
+            <summary>
+            有操作权限的GridView
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Interfaces.ISurfacePermission.DialogForms">
+            <summary>
+            画面的内弹出对话框
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Lanuch.Lanucher">
+            <summary>
+            模块启动器
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Lanuch.Lanucher.Start(System.String,System.String)">
+            <summary>
+            启动模块
+            </summary>
+            <param name="clsName">模块类名</param>
+            <param name="modName">模块DLL文件名</param>
+            <returns>模块对象</returns>
+        </member>
+        <member name="M:Ultra.Surface.Lanuch.Lanucher.InitView(Ultra.Surface.Form.BaseSurface)">
+            <summary>
+            设定画面相关参数及对象
+            </summary>
+            <param name="view"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ultra.Surface.Lanuch.Lanucher.GetPathByClsName(System.String)">
+            <summary>
+            获取 类对应的模块文件名
+            </summary>
+            <param name="clsName">类限定名</param>
+            <returns>类对应的模块文件名</returns>
+        </member>
+        <member name="M:Ultra.Surface.Lanuch.Lanucher.BuildPath(System.Collections.Generic.List{System.String})">
+            <summary>
+            根据类名点分获取DLL名称
+            </summary>
+            <param name="clsNamespt"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ultra.Surface.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.add_to_cart">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.agt_action_success">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.BO_Persons_Large">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.busy">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.interact">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.list_accept">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.mail_get">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.mail_get__1_">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.make">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.New_32x32">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.PrintTemplates_Icon__174_">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.reload">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.system_upgrade">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.tick">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Properties.Resources.user_student_assistant">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Form.WindowsMessage">
+            <summary>
+            Define the window messages
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Form.WndClassType">
+            <summary>
+            Define the window class types
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Form.WndStyle">
+            <summary>
+            Window style
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Form.ExtendedWndStyle">
+            <summary>
+            Extended Window Styles
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Form.WndProcDelegate">
+            <summary>
+            WNDPROC
+            </summary>
+            <param name="hWnd"></param>
+            <param name="msg"></param>
+            <param name="wParam"></param>
+            <param name="lParam"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ultra.Surface.Form.WNDCLASSEX">
+            <summary>
+            WNDCLASSEX
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Form.BLENDFUNCTION">
+            <summary>
+            BLENDFUNCTION
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Form.POINT">
+            <summary>
+            POINT
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Form.SIZE">
+            <summary>
+            SIZE
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Form.WindowShowStyle">
+            <summary>Enumeration of the different ways of showing a window using
+            ShowWindow</summary>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.Hide">
+            <summary>Hides the window and activates another window.</summary>
+            <remarks>See SW_HIDE</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.ShowNormal">
+            <summary>Activates and displays a window. If the window is minimized
+            or maximized, the system restores it to its original size and
+            position. An application should specify this flag when displaying
+            the window for the first time.</summary>
+            <remarks>See SW_SHOWNORMAL</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.ShowMinimized">
+            <summary>Activates the window and displays it as a minimized window.</summary>
+            <remarks>See SW_SHOWMINIMIZED</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.ShowMaximized">
+            <summary>Activates the window and displays it as a maximized window.</summary>
+            <remarks>See SW_SHOWMAXIMIZED</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.Maximize">
+            <summary>Maximizes the specified window.</summary>
+            <remarks>See SW_MAXIMIZE</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.ShowNormalNoActivate">
+            <summary>Displays a window in its most recent size and position.
+            This value is similar to "ShowNormal", except the window is not
+            actived.</summary>
+            <remarks>See SW_SHOWNOACTIVATE</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.Show">
+            <summary>Activates the window and displays it in its current size
+            and position.</summary>
+            <remarks>See SW_SHOW</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.Minimize">
+            <summary>Minimizes the specified window and activates the next
+            top-level window in the Z order.</summary>
+            <remarks>See SW_MINIMIZE</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.ShowMinNoActivate">
+            <summary>Displays the window as a minimized window. This value is
+            similar to "ShowMinimized", except the window is not activated.</summary>
+            <remarks>See SW_SHOWMINNOACTIVE</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.ShowNoActivate">
+            <summary>Displays the window in its current size and position. This
+            value is similar to "Show", except the window is not activated.</summary>
+            <remarks>See SW_SHOWNA</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.Restore">
+            <summary>Activates and displays the window. If the window is
+            minimized or maximized, the system restores it to its original size
+            and position. An application should specify this flag when restoring
+            a minimized window.</summary>
+            <remarks>See SW_RESTORE</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.ShowDefault">
+            <summary>Sets the show state based on the SW_ value specified in the
+            STARTUPINFO structure passed to the CreateProcess function by the
+            program that started the application.</summary>
+            <remarks>See SW_SHOWDEFAULT</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.WindowShowStyle.ForceMinimized">
+            <summary>Windows 2000/XP: Minimizes a window, even if the thread
+            that owns the window is hung. This flag should only be used when
+            minimizing windows from a different thread.</summary>
+            <remarks>See SW_FORCEMINIMIZE</remarks>
+        </member>
+        <member name="F:Ultra.Surface.Form.FrameWorkBaseSuperView.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Ultra.Surface.Form.FrameWorkBaseSuperView.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Ultra.Surface.Form.FrameWorkBaseSuperView.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Ultra.Surface.Form.FrameWorkBaseSuperView.DlgBgImg">
+            <summary>
+            Set the background image from file
+            </summary>
+        </member>
+        <member name="T:Ultra.Surface.Form.GDI32Dll">
+            <summary>
+            The wrapper class for GDI32.dll
+            </summary>
+        </member>
+        <member name="T:DoubleBullet.Surmnt.Surface.SuperForm.Kernal32Dll">
+            <summary>
+            The wrapper class for kernal32.dll
+            </summary>
+        </member>
+        <member name="T:DoubleBullet.Surmnt.Surface.SuperForm.User32Dll">
+            <summary>
+            The wrapper class for user32.dll
+            </summary>
+        </member>
+    </members>
+</doc>

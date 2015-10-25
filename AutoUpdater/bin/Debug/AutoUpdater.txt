@@ -1,0 +1,91 @@
+2015-10-07 14:59:23
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+发生一个或多个错误。
+message:
+发生一个或多个错误。
+2015-10-07 14:59:30
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+发生一个或多个错误。
+message:
+发生一个或多个错误。
+2015-10-07 15:09:36
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+发生一个或多个错误。
+message:
+发生一个或多个错误。
+2015-10-07 15:10:12
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+发生一个或多个错误。
+message:
+发生一个或多个错误。
+2015-10-07 15:27:04
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+发生一个或多个错误。
+message:
+发生一个或多个错误。
+2015-10-07 15:27:15
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+发生一个或多个错误。
+message:
+发生一个或多个错误。
+2015-10-07 15:31:14
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+发生一个或多个错误。
+message:
+发生一个或多个错误。
+2015-10-08 10:30:27
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+没有 Unicode 字节顺序标记。不能切换到 Unicode。
+message:
+没有 Unicode 字节顺序标记。不能切换到 Unicode。
+2015-10-08 10:50:05
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+没有 Unicode 字节顺序标记。不能切换到 Unicode。
+message:
+没有 Unicode 字节顺序标记。不能切换到 Unicode。
+2015-10-08 10:58:42
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+没有 Unicode 字节顺序标记。不能切换到 Unicode。
+message:
+没有 Unicode 字节顺序标记。不能切换到 Unicode。
+2015-10-08 11:34:10
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-10-08 11:34:17
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+未将对象引用设置到对象的实例。
+message:
+未将对象引用设置到对象的实例。
+2015-10-08 11:54:26
+stacktrace:
+AppDomain._nExecuteAssembly => Program.Main => ApplicationLog.DebugException
+exception:
+KnightsWarriorAutoupdater.RemoteFile 无法序列化，因为它没有无参数的构造函数。
+message:
+KnightsWarriorAutoupdater.RemoteFile 无法序列化，因为它没有无参数的构造函数。

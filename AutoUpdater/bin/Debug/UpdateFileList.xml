@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfRemoteFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RemoteFile>
+    <FileName>ChnCharInfo.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\ChnCharInfo.dll</FullName>
+    <MD5>B8BB34A6ECF0E61C750DD158F87FDA14</MD5>
+    <Url>http://localhost/UpdateApp/ttt/ChnCharInfo.dll</Url>
+    <Size>390224</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>DbEntity.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\DbEntity.dll</FullName>
+    <MD5>1F03B9AEDD8584B39553758103180F8D</MD5>
+    <Url>http://localhost/UpdateApp/ttt/DbEntity.dll</Url>
+    <Size>110592</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>EmitMapper.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\EmitMapper.dll</FullName>
+    <MD5>A8862AD25F03D03B3429068D214768D8</MD5>
+    <Url>http://localhost/UpdateApp/ttt/EmitMapper.dll</Url>
+    <Size>118272</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>ICSharpCode.SharpZipLib.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\ICSharpCode.SharpZipLib.dll</FullName>
+    <MD5>8D530EFCD5B889C716C82CA2E1DB0316</MD5>
+    <Url>http://localhost/UpdateApp/ttt/ICSharpCode.SharpZipLib.dll</Url>
+    <Size>225280</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>MoreLinq.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\MoreLinq.dll</FullName>
+    <MD5>683D1FF8C8B0FF6985A7C46B4E0265ED</MD5>
+    <Url>http://localhost/UpdateApp/ttt/MoreLinq.dll</Url>
+    <Size>52224</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>MSDN.HtmlEditorControl.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\MSDN.HtmlEditorControl.dll</FullName>
+    <MD5>8F083A9D51ED3F6EE07DC8B2E6C6A0A3</MD5>
+    <Url>http://localhost/UpdateApp/ttt/MSDN.HtmlEditorControl.dll</Url>
+    <Size>245760</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>MySql.Data.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\MySql.Data.dll</FullName>
+    <MD5>C8CC6C49DCF99E6CDB4933E3D1E838F6</MD5>
+    <Url>http://localhost/UpdateApp/ttt/MySql.Data.dll</Url>
+    <Size>391680</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Newtonsoft.Json.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Newtonsoft.Json.dll</FullName>
+    <MD5>C079A694A39616856E33ACB68A431487</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Newtonsoft.Json.dll</Url>
+    <Size>336384</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>NLog.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\NLog.dll</FullName>
+    <MD5>313DEFD8ED9A742AF1FF8A16FD508F3F</MD5>
+    <Url>http://localhost/UpdateApp/ttt/NLog.dll</Url>
+    <Size>375808</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>TopSdk.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\TopSdk.dll</FullName>
+    <MD5>C2A8432B9322C216283274C93EA65D14</MD5>
+    <Url>http://localhost/UpdateApp/ttt/TopSdk.dll</Url>
+    <Size>1044992</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.ApprovePoint.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.ApprovePoint.dll</FullName>
+    <MD5>465D830FB38390FD2B178AB39659909A</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.ApprovePoint.dll</Url>
+    <Size>24064</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.BalanceLog.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.BalanceLog.dll</FullName>
+    <MD5>377539BB7C6C70D15AC451F1CE97B82E</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.BalanceLog.dll</Url>
+    <Size>11264</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.Controls.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.Controls.dll</FullName>
+    <MD5>689DA4B97C64D5DC51621F0D9EA08F20</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.Controls.dll</Url>
+    <Size>6656</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.Inventory.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.Inventory.dll</FullName>
+    <MD5>3A02BD4CA972F3EC8175295EE3A955D0</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.Inventory.dll</Url>
+    <Size>59392</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.Item.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.Item.dll</FullName>
+    <MD5>F333E9B5F1CB054812EB9B69FD7816E2</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.Item.dll</Url>
+    <Size>18944</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.Log.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.Log.dll</FullName>
+    <MD5>20D94148E49D043A012948DD47D93653</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.Log.dll</Url>
+    <Size>7168</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.Login.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.Login.dll</FullName>
+    <MD5>5428AFA99AFC86BD9906395457DCACA2</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.Login.dll</Url>
+    <Size>67584</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.LoginBind.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.LoginBind.dll</FullName>
+    <MD5>7C6F1703AA78F40AF6198AB3EB996583</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.LoginBind.dll</Url>
+    <Size>27136</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.MakeCollect.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.MakeCollect.dll</FullName>
+    <MD5>01A4B4A014851ED58156D97F026F45EE</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.MakeCollect.dll</Url>
+    <Size>26624</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.Member.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.Member.dll</FullName>
+    <MD5>D804AB10F700B070E0AC24F1315B7319</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.Member.dll</Url>
+    <Size>27136</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.Permission.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.Permission.dll</FullName>
+    <MD5>3203E01F329F0306F68A025E357D7A45</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.Permission.dll</Url>
+    <Size>55808</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.PointFeeLog.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.PointFeeLog.dll</FullName>
+    <MD5>421A8CA208789B814A336F5343180FFE</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.PointFeeLog.dll</Url>
+    <Size>11264</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.Role.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.Role.dll</FullName>
+    <MD5>07C8F895054EC2297A0C446684FE9E11</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.Role.dll</Url>
+    <Size>25088</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.Surface.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.Surface.dll</FullName>
+    <MD5>B24945E58B067201835A336708F760C5</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.Surface.dll</Url>
+    <Size>651264</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.Trade.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.Trade.dll</FullName>
+    <MD5>D086D85ACA845B42DDDBD3E134F97D3D</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.Trade.dll</Url>
+    <Size>59904</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.User.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.User.dll</FullName>
+    <MD5>4BA31E926A3D88F392AE8F3235018995</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.User.dll</Url>
+    <Size>17920</Size>
+    <Status />
+  </RemoteFile>
+  <RemoteFile>
+    <FileName>Ultra.Web.Core.dll</FileName>
+    <FullName>C:\Users\zixiang\Desktop\update\Ultra.Web.Core.dll</FullName>
+    <MD5>9EE42FBD58F07F357932B4FEE9A913E0</MD5>
+    <Url>http://localhost/UpdateApp/ttt/Ultra.Web.Core.dll</Url>
+    <Size>100352</Size>
+    <Status />
+  </RemoteFile>
+</ArrayOfRemoteFile>
