@@ -119,7 +119,7 @@ namespace Ultra.Surface.Controls {
             }
         }
 
-        [Description("每页大小"), Category("Apex"), Browsable(true)]
+        [Description("每页大小"), Category("Ultra"), Browsable(true)]
         public int PageSize {
             get {
                 return this._PageSize;
@@ -129,7 +129,7 @@ namespace Ultra.Surface.Controls {
             }
         }
 
-        [Category("Apex"), Description("总记录数"), Browsable(true)]
+        [Category("Ultra"), Description("总记录数"), Browsable(true)]
         public int TotalDataCount {
             get {
                 return this._TotalDataCount;
