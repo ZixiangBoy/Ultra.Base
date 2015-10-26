@@ -72,3 +72,4 @@ C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.SysInfoView.resources
 C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.csproj.GenerateResource.Cache
 C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.dll
 C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.pdb
+C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.SetConfigView.resources

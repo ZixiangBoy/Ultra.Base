@@ -103,5 +103,10 @@ namespace Ultra.Login {
                 message.Result = (IntPtr)HTCAPTION;
             }
         }
+
+        private void btnSetting_Click(object sender, EventArgs e) {
+            var vw = new SetConfigView();
+            vw.ShowDialog();
+        }
     }
 }

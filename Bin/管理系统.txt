@@ -1,0 +1,7 @@
+2015-10-26 17:50:55
+stacktrace:
+ThreadContext.OnThreadException => Program.Application_ThreadException => ApplicationLog.DebugException
+exception:
+列名 'MenuJson' 无效。
+message:
+列名 'MenuJson' 无效。

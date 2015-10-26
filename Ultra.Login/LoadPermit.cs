@@ -72,7 +72,6 @@ namespace Ultra.Login {
                     }
                 } catch { }
                 try {
-
                     var tbn = isp.ButtonItems;
                     if (null != tbn && tbn.Count > 0) {
                         if (!cur.UserName.Equals("admin")) {
