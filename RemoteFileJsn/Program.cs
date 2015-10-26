@@ -33,13 +33,6 @@ namespace RemoteFileJsn
                         )
                         pss.Add(j);
                 }
-                //var pcs = Process.GetProcessesByName("Ultra.ERP.exe");
-                //var ps = Process.GetProcessesByName("客易ERP");
-                //if (null != pcs && pcs.Length > 0 && null != ps && ps.Length > 0)
-                //{
-                //    pss.AddRange(pcs); pss.AddRange(ps);
-                //    return true;
-                //}
                 return false;
             }
             catch (Exception ex)

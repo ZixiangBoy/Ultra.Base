@@ -45,3 +45,9 @@ C:\Users\zixiang\Desktop\Ultra.Base\Bin\DbEntity.pdb
 C:\Users\zixiang\Desktop\Ultra.Base\DbEntity\obj\Debug\DbEntity.dll
 C:\Users\zixiang\Desktop\Ultra.Base\DbEntity\obj\Debug\DbEntity.pdb
 C:\Users\zixiang\Desktop\Ultra.Base\DbEntity\obj\Debug\DbEntity.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\Bin\DbEntity.dll.config
+C:\GitSrc\Ultra.Base\Bin\DbEntity.dll
+C:\GitSrc\Ultra.Base\Bin\DbEntity.pdb
+C:\GitSrc\Ultra.Base\DbEntity\obj\Debug\DbEntity.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\DbEntity\obj\Debug\DbEntity.dll
+C:\GitSrc\Ultra.Base\DbEntity\obj\Debug\DbEntity.pdb

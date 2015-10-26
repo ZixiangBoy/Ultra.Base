@@ -52,3 +52,11 @@ C:\Users\zixiang\Desktop\Ultra.Base\Ultra.User\obj\Debug\Ultra.User.NewView.reso
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.User\obj\Debug\Ultra.User.csproj.GenerateResource.Cache
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.User\obj\Debug\Ultra.User.dll
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.User\obj\Debug\Ultra.User.pdb
+C:\GitSrc\Ultra.Base\Bin\Ultra.User.dll
+C:\GitSrc\Ultra.Base\Bin\Ultra.User.pdb
+C:\GitSrc\Ultra.Base\Ultra.User\obj\Debug\Ultra.User.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\Ultra.User\obj\Debug\Ultra.User.MainView.resources
+C:\GitSrc\Ultra.Base\Ultra.User\obj\Debug\Ultra.User.NewView.resources
+C:\GitSrc\Ultra.Base\Ultra.User\obj\Debug\Ultra.User.csproj.GenerateResource.Cache
+C:\GitSrc\Ultra.Base\Ultra.User\obj\Debug\Ultra.User.dll
+C:\GitSrc\Ultra.Base\Ultra.User\obj\Debug\Ultra.User.pdb

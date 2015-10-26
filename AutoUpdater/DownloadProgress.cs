@@ -36,8 +36,18 @@ namespace AutoUpdater {
         #endregion
 
         #region The constructor of DownloadProgress
-        public DownloadProgress(List<DownloadFileInfo> downloadFileListTemp) {
+        public DownloadProgress(List<DownloadFileInfo> downloadFileListTemp,string appName) {
             InitializeComponent();
+
+            lblAppName.Text = string.Format("程序名称: {0}", appName);
+
+            int ScreenWidth = Screen.PrimaryScreen.WorkingArea.Width;
+            int ScreenHeight = Screen.PrimaryScreen.WorkingArea.Height;
+            //计算窗体显示的坐标值，可以根据需要微调几个像素
+            int x = ScreenWidth - this.Width;
+            int y = ScreenHeight - this.Height;
+
+            this.Location = new Point(x, y);
 
             this.downloadFileList = downloadFileListTemp;
             allFileList = new List<DownloadFileInfo>();
@@ -122,7 +132,6 @@ namespace AutoUpdater {
                         } catch (Exception) {
                             //log the error message,you can use the application's log code
                         }
-
                     };
 
                     evtPerDonwload.Reset();
@@ -154,42 +163,30 @@ namespace AutoUpdater {
 
             //Debug.WriteLine("All Downloaded");
             foreach (DownloadFileInfo file in this.allFileList) {
-                string oldPath = string.Empty;
-                string newPath = string.Empty;
+                var backupPath = Path.Combine(CommonUnitity.SystemBinUrl, ConstFile.BACKUPFOLDERNAME, file.FileName);
+                var tempPath = Path.Combine(CommonUnitity.SystemBinUrl, ConstFile.TEMPFOLDERNAME, file.FileName);
+                var appExecPath = Path.Combine(CommonUnitity.SystemBinUrl,file.FileName);
                 try {
-                    oldPath = Path.Combine(CommonUnitity.SystemBinUrl, file.FileName);
-                    newPath = Path.Combine(CommonUnitity.SystemBinUrl + ConstFile.TEMPFOLDERNAME, file.FileName);
 
                     //just deal with the problem which the files EndsWith xml can not download
-                    System.IO.FileInfo f = new FileInfo(newPath);
+                    System.IO.FileInfo f = new FileInfo(tempPath);
                     if (!file.Size.ToString().Equals(f.Length.ToString()) && !file.FileName.ToString().EndsWith(".xml")) {
                         ShowErrorAndRestartApplication();
                     }
 
-
-                    //Added for dealing with the config file download errors
-                    string newfilepath = string.Empty;
-                    if (newPath.Substring(newPath.LastIndexOf(".") + 1).Equals(ConstFile.CONFIGFILEKEY)) {
-                        if (System.IO.File.Exists(newPath)) {
-                            if (newPath.EndsWith("_")) {
-                                newfilepath = newPath;
-                                newPath = newPath.Substring(0, newPath.Length - 1);
-                                oldPath = oldPath.Substring(0, oldPath.Length - 1);
-                            }
-                            File.Move(newfilepath, newPath);
-                        }
+                    //备份当前文件到backup文件夹中
+                    if (File.Exists(appExecPath)) {
+                        File.Move(appExecPath, backupPath);
                     }
-                    //End added
 
-                    if (File.Exists(oldPath)) {
-                        MoveFolderToOld(oldPath, newPath);
-                    } else {
-                        MoveFolderToOld(oldPath, newPath);
+                    //将下载的新文件覆盖到当前应用程序的目录
+                    if (File.Exists(tempPath)){
+                        File.Move(tempPath, appExecPath);
                     }
+
                 } catch (Exception exp) {
                     //log the error message,you can use the application's log code
                 }
-
             }
 
             //After dealed with all files, clear the data
@@ -201,20 +198,6 @@ namespace AutoUpdater {
                 Exit(false);
 
             evtDownload.Set();
-        }
-
-        //To delete or move to old files
-        void MoveFolderToOld(string oldPath, string newPath) {
-            if (File.Exists(oldPath + ".old"))
-                File.Delete(oldPath + ".old");
-
-            if (File.Exists(oldPath))
-                File.Move(oldPath, oldPath + ".old");
-
-
-
-            File.Move(newPath, oldPath);
-            //File.Delete(oldPath + ".old");
         }
 
         delegate void ShowCurrentDownloadFileNameCallBack(string name);

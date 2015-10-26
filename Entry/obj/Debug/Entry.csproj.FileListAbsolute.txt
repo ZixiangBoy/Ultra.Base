@@ -34,3 +34,9 @@ C:\Users\zixiang\Desktop\Ultra.Base\Bin\管理系统.pdb
 C:\Users\zixiang\Desktop\Ultra.Base\Entry\obj\Debug\Entry.csprojResolveAssemblyReference.cache
 C:\Users\zixiang\Desktop\Ultra.Base\Entry\obj\Debug\管理系统.exe
 C:\Users\zixiang\Desktop\Ultra.Base\Entry\obj\Debug\管理系统.pdb
+C:\GitSrc\Ultra.Base\Bin\管理系统.exe.config
+C:\GitSrc\Ultra.Base\Bin\管理系统.exe
+C:\GitSrc\Ultra.Base\Bin\管理系统.pdb
+C:\GitSrc\Ultra.Base\Entry\obj\Debug\Entry.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\Entry\obj\Debug\管理系统.exe
+C:\GitSrc\Ultra.Base\Entry\obj\Debug\管理系统.pdb

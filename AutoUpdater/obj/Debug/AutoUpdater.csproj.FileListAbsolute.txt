@@ -38,3 +38,14 @@ C:\Users\zixiang\Desktop\Ultra.Base\AutoUpdater\bin\Debug\AutoUpdater.exe
 C:\Users\zixiang\Desktop\Ultra.Base\AutoUpdater\obj\Debug\AutoUpdater.exe
 C:\Users\zixiang\Desktop\Ultra.Base\AutoUpdater\obj\Debug\AutoUpdater.DownloadConfirm.resources
 C:\Users\zixiang\Desktop\Ultra.Base\AutoUpdater\obj\Debug\AutoUpdater.DownloadProgress.resources
+C:\GitSrc\Ultra.Base\AutoUpdater\bin\Debug\AutoUpdater.pdb
+C:\GitSrc\Ultra.Base\AutoUpdater\obj\Debug\AutoUpdater.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\AutoUpdater\obj\Debug\AutoUpdater.DownloadConfirm.resources
+C:\GitSrc\Ultra.Base\AutoUpdater\obj\Debug\AutoUpdater.DownloadProgress.resources
+C:\GitSrc\Ultra.Base\AutoUpdater\obj\Debug\AutoUpdater.csproj.GenerateResource.Cache
+C:\GitSrc\Ultra.Base\AutoUpdater\obj\Debug\AutoUpdater.pdb
+C:\GitSrc\Ultra.Base\AutoUpdater\bin\Debug\AutoUpdater.exe
+C:\GitSrc\Ultra.Base\AutoUpdater\obj\Debug\AutoUpdater.exe
+C:\GitSrc\Ultra.Base\Bin\AutoUpdater.exe
+C:\GitSrc\Ultra.Base\Bin\AutoUpdater.pdb
+C:\GitSrc\Ultra.Base\Bin\AutoUpdater.xml

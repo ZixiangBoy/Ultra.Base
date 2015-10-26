@@ -52,3 +52,11 @@ C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Role\obj\Debug\Ultra.Role.NewView.reso
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Role\obj\Debug\Ultra.Role.csproj.GenerateResource.Cache
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Role\obj\Debug\Ultra.Role.dll
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Role\obj\Debug\Ultra.Role.pdb
+C:\GitSrc\Ultra.Base\Bin\Ultra.Role.dll
+C:\GitSrc\Ultra.Base\Bin\Ultra.Role.pdb
+C:\GitSrc\Ultra.Base\Ultra.Role\obj\Debug\Ultra.Role.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\Ultra.Role\obj\Debug\Ultra.Role.MainView.resources
+C:\GitSrc\Ultra.Base\Ultra.Role\obj\Debug\Ultra.Role.NewView.resources
+C:\GitSrc\Ultra.Base\Ultra.Role\obj\Debug\Ultra.Role.csproj.GenerateResource.Cache
+C:\GitSrc\Ultra.Base\Ultra.Role\obj\Debug\Ultra.Role.dll
+C:\GitSrc\Ultra.Base\Ultra.Role\obj\Debug\Ultra.Role.pdb

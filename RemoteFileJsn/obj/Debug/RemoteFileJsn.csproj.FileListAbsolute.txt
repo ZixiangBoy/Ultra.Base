@@ -21,3 +21,11 @@ C:\Users\zixiang\Desktop\Ultra.Base\RemoteFileJsn\obj\Debug\RemoteFileJsn.Form1.
 C:\Users\zixiang\Desktop\Ultra.Base\RemoteFileJsn\obj\Debug\RemoteFileJsn.csproj.GenerateResource.Cache
 C:\Users\zixiang\Desktop\Ultra.Base\Bin\RemoteFileJsn.exe
 C:\Users\zixiang\Desktop\Ultra.Base\Bin\RemoteFileJsn.pdb
+C:\GitSrc\Ultra.Base\Bin\RemoteFileJsn.exe.config
+C:\GitSrc\Ultra.Base\RemoteFileJsn\obj\Debug\RemoteFileJsn.exe
+C:\GitSrc\Ultra.Base\RemoteFileJsn\obj\Debug\RemoteFileJsn.pdb
+C:\GitSrc\Ultra.Base\Bin\RemoteFileJsn.exe
+C:\GitSrc\Ultra.Base\Bin\RemoteFileJsn.pdb
+C:\GitSrc\Ultra.Base\RemoteFileJsn\obj\Debug\RemoteFileJsn.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\RemoteFileJsn\obj\Debug\RemoteFileJsn.Form1.resources
+C:\GitSrc\Ultra.Base\RemoteFileJsn\obj\Debug\RemoteFileJsn.csproj.GenerateResource.Cache

@@ -38,3 +38,8 @@ C:\Users\zixiang\Desktop\Ultra.Base\Bin\Ultra.Web.Core.pdb
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.csprojResolveAssemblyReference.cache
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.dll
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.pdb
+C:\GitSrc\Ultra.Base\Bin\Ultra.Web.Core.dll
+C:\GitSrc\Ultra.Base\Bin\Ultra.Web.Core.pdb
+C:\GitSrc\Ultra.Base\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.dll
+C:\GitSrc\Ultra.Base\Ultra.Web.Core\obj\Debug\Ultra.Web.Core.pdb

@@ -41,8 +41,7 @@
             this.progressBarCurrent = new System.Windows.Forms.ProgressBar();
             this.label1 = new System.Windows.Forms.Label();
             this.labelCurrent = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblAppName = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.splitter1 = new System.Windows.Forms.Splitter();
@@ -127,8 +126,7 @@
             this.panel2.Controls.Add(this.progressBarCurrent);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.labelCurrent);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.lblAppName);
             this.panel2.Controls.Add(this.label6);
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.panel2.Location = new System.Drawing.Point(-3, 66);
@@ -170,23 +168,14 @@
             this.labelCurrent.TabIndex = 3;
             this.labelCurrent.Text = "下载中:";
             // 
-            // label5
+            // lblAppName
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(245, 9);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(137, 12);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "From:    Remote Server";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(32, 9);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(155, 12);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Name:  KnightsWarrior.exe";
+            this.lblAppName.AutoSize = true;
+            this.lblAppName.Location = new System.Drawing.Point(32, 9);
+            this.lblAppName.Name = "lblAppName";
+            this.lblAppName.Size = new System.Drawing.Size(155, 12);
+            this.lblAppName.TabIndex = 0;
+            this.lblAppName.Text = "Name:  KnightsWarrior.exe";
             // 
             // label6
             // 
@@ -242,7 +231,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "DownloadProgress";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "正在更新...";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.OnFormClosing);
             this.Load += new System.EventHandler(this.OnFormLoad);
@@ -271,9 +260,8 @@
         private System.Windows.Forms.ProgressBar progressBarCurrent;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelCurrent;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblAppName;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.Splitter splitter2;

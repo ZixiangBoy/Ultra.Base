@@ -11,7 +11,7 @@ using System.IO;
 namespace AutoUpdater
 {
     static class Program {
-        public static string apppath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"Error.log"); 
+        public static string apppath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "AutoUpdaterError.log"); 
         /// <summary>
         /// 应用程序的主入口点。
         /// </summary>
@@ -20,23 +20,31 @@ namespace AutoUpdater
         {
             Application.ThreadException += Application_ThreadException;
 
-            bool bHasError = false;
-            IAutoUpdater autoUpdater = new AutoUpdater();
-            try {
-                autoUpdater.CheckUpdate();
-            } catch (Exception e) {
-                var errmsg = string.Format("{0}{1}{2}",DateTime.Now+Environment.NewLine,e.Message+Environment.NewLine,e.StackTrace+Environment.NewLine);
-                File.AppendAllText(apppath, errmsg);
-                bHasError = true;
-            } finally {
-                if (bHasError == true) {
+            var t = new Thread(()=>{
+                while (true) {
+                    bool bHasError = false;
+                    IAutoUpdater autoUpdater = new AutoUpdater();
                     try {
-                        autoUpdater.RollBack();
-                    } catch (Exception) {
-                        //Log the message to your file or database
+                        autoUpdater.CheckUpdate();
+                    } catch (Exception e) {
+                        var errmsg = string.Format("{0}{1}{2}", DateTime.Now + Environment.NewLine, e.Message + Environment.NewLine, e.StackTrace + Environment.NewLine);
+                        File.AppendAllText(apppath, errmsg);
+                        bHasError = true;
+                    } finally {
+                        if (bHasError == true) {
+                            try {
+                                autoUpdater.RollBack();
+                            } catch (Exception) {
+                                //Log the message to your file or database
+                            }
+                        }
                     }
+
+                    Thread.Sleep(10 * 1000);
                 }
-            }
+            });
+            t.Start();
+            t.Join();
         }
 
         static void Application_ThreadException(object sender, ThreadExceptionEventArgs e)

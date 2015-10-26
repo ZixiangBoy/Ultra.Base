@@ -18,8 +18,8 @@ using System.Text;
 
 namespace AutoUpdater
 {
-    public class ConstFile
-    {
+    public class ConstFile {
+        public const string BACKUPFOLDERNAME = "BackupFolder";
         public const string TEMPFOLDERNAME = "TempFolder";
         public const string CONFIGFILEKEY = "config_";
         public const string FILENAME = "AutoUpdater.xml";

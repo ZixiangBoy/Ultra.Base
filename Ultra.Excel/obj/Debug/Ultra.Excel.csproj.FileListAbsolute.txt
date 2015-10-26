@@ -22,3 +22,8 @@ C:\Users\zixiang\Desktop\Ultra.Base\Bin\Ultra.Excel.pdb
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Excel\obj\Debug\Ultra.Excel.csprojResolveAssemblyReference.cache
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Excel\obj\Debug\Ultra.Excel.dll
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Excel\obj\Debug\Ultra.Excel.pdb
+C:\GitSrc\Ultra.Base\Bin\Ultra.Excel.dll
+C:\GitSrc\Ultra.Base\Bin\Ultra.Excel.pdb
+C:\GitSrc\Ultra.Base\Ultra.Excel\obj\Debug\Ultra.Excel.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\Ultra.Excel\obj\Debug\Ultra.Excel.dll
+C:\GitSrc\Ultra.Base\Ultra.Excel\obj\Debug\Ultra.Excel.pdb

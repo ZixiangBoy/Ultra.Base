@@ -8,3 +8,8 @@ C:\Users\zixiang\Desktop\AutoUpdater\Bin\EmitMapper.pdb
 C:\Users\zixiang\Desktop\AutoUpdater\EmitMapper\obj\Debug\EmitMapper.csprojResolveAssemblyReference.cache
 C:\Users\zixiang\Desktop\AutoUpdater\EmitMapper\obj\Debug\EmitMapper.dll
 C:\Users\zixiang\Desktop\AutoUpdater\EmitMapper\obj\Debug\EmitMapper.pdb
+C:\GitSrc\Ultra.Base\Bin\EmitMapper.dll
+C:\GitSrc\Ultra.Base\Bin\EmitMapper.pdb
+C:\GitSrc\Ultra.Base\EmitMapper\obj\Debug\EmitMapper.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\EmitMapper\obj\Debug\EmitMapper.dll
+C:\GitSrc\Ultra.Base\EmitMapper\obj\Debug\EmitMapper.pdb

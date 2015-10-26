@@ -26,6 +26,10 @@ namespace AutoUpdater
             get;
             set;
         }
+        public string AppName {
+            get;
+            set;
+        }
 
         #region The public method
         public static Config LoadConfig(string file) {
@@ -43,7 +47,6 @@ namespace AutoUpdater
             }
         }
         #endregion
-
     }
 
 }

@@ -20,3 +20,10 @@ C:\GitSrc\YongERP\Ultra.Controls\obj\Debug\Ultra.Controls.dll
 C:\GitSrc\YongERP\Ultra.Controls\obj\Debug\Ultra.Controls.pdb
 C:\GitSrc\YongERP\Ultra.Controls\obj\Debug\Ultra.Controls.View.ImportDataView.resources
 C:\GitSrc\YongERP\Ultra.Controls\obj\Debug\Ultra.Controls.csproj.GenerateResource.Cache
+C:\GitSrc\Ultra.Base\Bin\Ultra.Controls.dll
+C:\GitSrc\Ultra.Base\Bin\Ultra.Controls.pdb
+C:\GitSrc\Ultra.Base\Ultra.Controls\obj\Debug\Ultra.Controls.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\Ultra.Controls\obj\Debug\Ultra.Controls.View.ImportDataView.resources
+C:\GitSrc\Ultra.Base\Ultra.Controls\obj\Debug\Ultra.Controls.csproj.GenerateResource.Cache
+C:\GitSrc\Ultra.Base\Ultra.Controls\obj\Debug\Ultra.Controls.dll
+C:\GitSrc\Ultra.Base\Ultra.Controls\obj\Debug\Ultra.Controls.pdb

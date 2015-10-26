@@ -66,3 +66,13 @@ C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Permission\obj\Debug\Ultra.Permission.
 C:\Users\zixiang\Desktop\Ultra.Base\Bin\Ultra.Permission.dll
 C:\Users\zixiang\Desktop\Ultra.Base\Bin\Ultra.Permission.pdb
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Permission\obj\Debug\Ultra.Permission.pdb
+C:\GitSrc\Ultra.Base\Bin\Ultra.Permission.dll
+C:\GitSrc\Ultra.Base\Bin\Ultra.Permission.pdb
+C:\GitSrc\Ultra.Base\Ultra.Permission\obj\Debug\Ultra.Permission.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\Ultra.Permission\obj\Debug\Ultra.Permission.MainView.resources
+C:\GitSrc\Ultra.Base\Ultra.Permission\obj\Debug\Ultra.Permission.NewView.resources
+C:\GitSrc\Ultra.Base\Ultra.Permission\obj\Debug\Ultra.Permission.PermitView.resources
+C:\GitSrc\Ultra.Base\Ultra.Permission\obj\Debug\Ultra.Permission.PermitViewExport.resources
+C:\GitSrc\Ultra.Base\Ultra.Permission\obj\Debug\Ultra.Permission.csproj.GenerateResource.Cache
+C:\GitSrc\Ultra.Base\Ultra.Permission\obj\Debug\Ultra.Permission.dll
+C:\GitSrc\Ultra.Base\Ultra.Permission\obj\Debug\Ultra.Permission.pdb

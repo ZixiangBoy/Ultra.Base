@@ -44,3 +44,11 @@ C:\GitSrc\YongERP\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.MainView.resources
 C:\GitSrc\YongERP\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.csproj.GenerateResource.Cache
 C:\GitSrc\YongERP\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.dll
 C:\GitSrc\YongERP\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.pdb
+C:\GitSrc\Ultra.Base\Bin\Ultra.LoginBind.dll
+C:\GitSrc\Ultra.Base\Bin\Ultra.LoginBind.pdb
+C:\GitSrc\Ultra.Base\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.EditView.resources
+C:\GitSrc\Ultra.Base\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.MainView.resources
+C:\GitSrc\Ultra.Base\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.csproj.GenerateResource.Cache
+C:\GitSrc\Ultra.Base\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.dll
+C:\GitSrc\Ultra.Base\Ultra.LoginBind\obj\Debug\Ultra.LoginBind.pdb

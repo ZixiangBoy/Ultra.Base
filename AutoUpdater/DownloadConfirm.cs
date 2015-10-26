@@ -28,6 +28,20 @@ namespace AutoUpdater
         #endregion
 
         #region The constructor of DownloadConfirm
+        public DownloadConfirm(string appName) {
+            InitializeComponent();
+
+            int ScreenWidth = Screen.PrimaryScreen.WorkingArea.Width;
+            int ScreenHeight = Screen.PrimaryScreen.WorkingArea.Height;
+            //计算窗体显示的坐标值，可以根据需要微调几个像素
+            int x = ScreenWidth - this.Width ;
+            int y = ScreenHeight - this.Height ;
+
+            this.Location = new Point(x, y);
+
+            lblAppName.Text = string.Format("{0}",appName);
+        }
+
         public DownloadConfirm(List<DownloadFileInfo> downloadfileList)
         {
             InitializeComponent();
@@ -35,17 +49,17 @@ namespace AutoUpdater
         }
         #endregion
 
-        #region The private method
-        private void OnLoad(object sender, EventArgs e)
-        {
-            foreach (DownloadFileInfo file in this.downloadFileList)
-            {
-                ListViewItem item = new ListViewItem(new string[] { file.FileName,file.MD5, file.Size.ToString() });
-            }
+        //#region The private method
+        //private void OnLoad(object sender, EventArgs e)
+        //{
+        //    foreach (DownloadFileInfo file in this.downloadFileList)
+        //    {
+        //        ListViewItem item = new ListViewItem(new string[] { file.FileName,file.MD5, file.Size.ToString() });
+        //    }
 
-            this.Activate();
-            this.Focus();
-        }
-        #endregion
+        //    this.Activate();
+        //    this.Focus();
+        //}
+        //#endregion
     }
 }

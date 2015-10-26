@@ -61,3 +61,14 @@ C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.SysInfoVie
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.csproj.GenerateResource.Cache
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.dll
 C:\Users\zixiang\Desktop\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.pdb
+C:\GitSrc\Ultra.Base\Bin\Ultra.Login.dll
+C:\GitSrc\Ultra.Base\Bin\Ultra.Login.pdb
+C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.EditPassWord.resources
+C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.LoginView.resources
+C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.MainView.resources
+C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.MenuView.resources
+C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.SysInfoView.resources
+C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.csproj.GenerateResource.Cache
+C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.dll
+C:\GitSrc\Ultra.Base\Ultra.Login\obj\Debug\Ultra.Login.pdb

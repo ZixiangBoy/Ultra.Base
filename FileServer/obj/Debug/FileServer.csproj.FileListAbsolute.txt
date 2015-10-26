@@ -37,3 +37,9 @@ C:\Users\zixiang\Desktop\Ultra.Base\Bin\FileServer.pdb
 C:\Users\zixiang\Desktop\Ultra.Base\FileServer\obj\Debug\FileServer.csprojResolveAssemblyReference.cache
 C:\Users\zixiang\Desktop\Ultra.Base\FileServer\obj\Debug\FileServer.exe
 C:\Users\zixiang\Desktop\Ultra.Base\FileServer\obj\Debug\FileServer.pdb
+C:\GitSrc\Ultra.Base\Bin\FileServer.exe.config
+C:\GitSrc\Ultra.Base\Bin\FileServer.exe
+C:\GitSrc\Ultra.Base\Bin\FileServer.pdb
+C:\GitSrc\Ultra.Base\FileServer\obj\Debug\FileServer.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\FileServer\obj\Debug\FileServer.exe
+C:\GitSrc\Ultra.Base\FileServer\obj\Debug\FileServer.pdb

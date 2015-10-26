@@ -30,13 +30,15 @@ namespace Entry
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+
             Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
             Application.ThreadException += new ThreadExceptionEventHandler(Application_ThreadException);
             AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException);
 
+            Application.ApplicationExit += Application_ApplicationExit;
+
             AppLog = new Ultra.Log.ApplicationLog();
         __start:
-
 
             string con = string.Empty;
             BaseSurface vw;
@@ -71,6 +73,15 @@ namespace Entry
                 goto __start;
             }
 
+        }
+
+        static void Application_ApplicationExit(object sender, EventArgs e) {
+            var pros = Process.GetProcessesByName("AutoUpdater.exe");
+            if (pros != null && pros.Count() > 0) {
+                foreach (var p in pros) {
+                    p.Kill();
+                }
+            }
         }
 
         /// <summary>1

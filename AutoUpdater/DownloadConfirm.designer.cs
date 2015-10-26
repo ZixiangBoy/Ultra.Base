@@ -30,20 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DownloadConfirm));
             this.btnOk = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.splitter1 = new System.Windows.Forms.Splitter();
-            this.splitter2 = new System.Windows.Forms.Splitter();
+            this.lblAppName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,35 +48,26 @@
             this.btnOk.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnOk.Location = new System.Drawing.Point(293, 10);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(83, 23);
+            this.btnOk.Size = new System.Drawing.Size(83, 32);
             this.btnOk.TabIndex = 0;
             this.btnOk.Text = "更新";
             this.btnOk.UseVisualStyleBackColor = true;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(21, 35);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 12);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "文件服务器:远程服务器";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 13);
+            this.label3.Location = new System.Drawing.Point(228, 10);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 12);
+            this.label3.Size = new System.Drawing.Size(65, 12);
             this.label3.TabIndex = 0;
-            this.label3.Text = "程序名称: XXXXXXX";
+            this.label3.Text = "程序名称: ";
             // 
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancel.Location = new System.Drawing.Point(392, 10);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(83, 23);
+            this.btnCancel.Size = new System.Drawing.Size(83, 32);
             this.btnCancel.TabIndex = 0;
             this.btnCancel.Text = "跳过";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -88,7 +75,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(416, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(406, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(79, 55);
             this.pictureBox1.TabIndex = 4;
@@ -116,53 +103,35 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.Controls.Add(this.lblAppName);
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(496, 62);
+            this.panel1.Size = new System.Drawing.Size(492, 62);
             this.panel1.TabIndex = 4;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(0, 64);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(498, 67);
-            this.panel2.TabIndex = 5;
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.btnOk);
             this.panel3.Controls.Add(this.btnCancel);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 134);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 62);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(496, 45);
+            this.panel3.Size = new System.Drawing.Size(492, 88);
             this.panel3.TabIndex = 6;
             // 
-            // splitter1
+            // lblAppName
             // 
-            this.splitter1.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.splitter1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.splitter1.Location = new System.Drawing.Point(0, 62);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(496, 2);
-            this.splitter1.TabIndex = 7;
-            this.splitter1.TabStop = false;
-            // 
-            // splitter2
-            // 
-            this.splitter2.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.splitter2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.splitter2.Location = new System.Drawing.Point(0, 132);
-            this.splitter2.Name = "splitter2";
-            this.splitter2.Size = new System.Drawing.Size(496, 2);
-            this.splitter2.TabIndex = 8;
-            this.splitter2.TabStop = false;
+            this.lblAppName.AutoSize = true;
+            this.lblAppName.Location = new System.Drawing.Point(242, 31);
+            this.lblAppName.Name = "lblAppName";
+            this.lblAppName.Size = new System.Drawing.Size(41, 12);
+            this.lblAppName.TabIndex = 5;
+            this.lblAppName.Text = "label4";
             // 
             // DownloadConfirm
             // 
@@ -170,25 +139,19 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(496, 179);
+            this.ClientSize = new System.Drawing.Size(492, 150);
             this.ControlBox = false;
-            this.Controls.Add(this.splitter2);
-            this.Controls.Add(this.splitter1);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "DownloadConfirm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "更新提示";
-            this.Load += new System.EventHandler(this.OnLoad);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -197,16 +160,13 @@
         #endregion
 
         private System.Windows.Forms.Button btnOk;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Splitter splitter1;
-        private System.Windows.Forms.Splitter splitter2;
+        private System.Windows.Forms.Label lblAppName;
     }
 }
