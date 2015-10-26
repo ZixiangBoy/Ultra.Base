@@ -1,0 +1,5 @@
+C:\GitSrc\Ultra.Base\DataAccess.Util\obj\Debug\DataAccess.Util.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\Bin\DataAccess.Util.dll
+C:\GitSrc\Ultra.Base\Bin\DataAccess.Util.pdb
+C:\GitSrc\Ultra.Base\DataAccess.Util\obj\Debug\DataAccess.Util.dll
+C:\GitSrc\Ultra.Base\DataAccess.Util\obj\Debug\DataAccess.Util.pdb

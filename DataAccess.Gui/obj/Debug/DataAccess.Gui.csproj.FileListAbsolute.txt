@@ -1,0 +1,9 @@
+C:\GitSrc\Ultra.Base\DataAccess.Gui\obj\Debug\DataAccess.Gui.csprojResolveAssemblyReference.cache
+C:\GitSrc\Ultra.Base\DataAccess.Gui\obj\Debug\DataAccess.Gui.DataBaseConfigWizard.resources
+C:\GitSrc\Ultra.Base\DataAccess.Gui\obj\Debug\VistaStyleProgressBar.ProgressBar.resources
+C:\GitSrc\Ultra.Base\DataAccess.Gui\obj\Debug\DataAccess.Gui.WaittingPanel.resources
+C:\GitSrc\Ultra.Base\DataAccess.Gui\obj\Debug\DataAccess.Gui.csproj.GenerateResource.Cache
+C:\GitSrc\Ultra.Base\Bin\DataAccess.Gui.dll
+C:\GitSrc\Ultra.Base\Bin\DataAccess.Gui.pdb
+C:\GitSrc\Ultra.Base\DataAccess.Gui\obj\Debug\DataAccess.Gui.dll
+C:\GitSrc\Ultra.Base\DataAccess.Gui\obj\Debug\DataAccess.Gui.pdb
